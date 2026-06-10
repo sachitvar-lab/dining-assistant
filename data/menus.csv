@@ -1,0 +1,46 @@
+Restaurant,Item,Cuisine,Calories,Price,Tags
+Frank Pepe Pizzeria,Original Tomato Pie (small half),Italian,620,9.50,gluten;vegetarian
+Frank Pepe Pizzeria,White Clam Pie (small half),Italian,710,12.50,gluten;seafood;dairy
+Frank Pepe Pizzeria,Margherita Pie (small half),Italian,680,10.75,gluten;dairy;vegetarian
+Modern Apizza,Italian Bomb (small half),Italian,840,12.25,gluten;dairy
+Modern Apizza,Plain Tomato Pie (small half),Italian,600,8.75,gluten;vegetarian
+Modern Apizza,Veggie Bomb (small half),Italian,690,11.50,gluten;dairy;vegetarian
+Sally's Apizza,Tomato Pie (small half),Italian,610,9.25,gluten;vegetarian
+Sally's Apizza,White Potato Pie (small half),Italian,780,11.75,gluten;dairy;vegetarian
+Zeneli Pizzeria,Margherita Napoletana (whole),Italian,890,14.00,gluten;dairy;vegetarian
+Zeneli Pizzeria,Marinara Napoletana (whole),Italian,720,12.00,gluten;vegetarian;vegan
+Sherkaan,Chicken Tikka (half portion with naan),Indian,640,14.50,gluten;dairy
+Sherkaan,Chana Masala with Basmati Rice,Indian,520,13.00,vegetarian;vegan;gluten-free
+Sherkaan,Lamb Vindaloo with Rice,Indian,710,17.00,gluten-free
+Sherkaan,Saag Paneer with Naan,Indian,680,14.00,dairy;gluten;vegetarian
+Sherkaan,Tandoori Chicken Salad,Indian,430,13.50,dairy;gluten-free
+House of Naan,Chicken Tikka Naanwich,Indian,590,12.00,gluten;dairy
+House of Naan,Veggie Korma Bowl with Rice,Indian,560,11.50,dairy;nuts;vegetarian;gluten-free
+House of Naan,Daal Bowl with Brown Rice,Indian,480,10.50,vegetarian;vegan;gluten-free
+116 Crown by Hachiroku,Salmon Sashimi Set (8 pc with rice),Japanese,440,18.00,seafood;gluten-free
+116 Crown by Hachiroku,Chicken Karaage with Steamed Rice,Japanese,650,15.00,gluten;soy;egg
+116 Crown by Hachiroku,Salt-Grilled Salmon Teishoku,Japanese,560,19.00,seafood;gluten-free
+116 Crown by Hachiroku,Vegetable Tempura with Rice,Japanese,610,13.00,gluten;egg;vegetarian
+116 Crown by Hachiroku,Tuna Donburi Bowl,Japanese,520,17.50,seafood;soy;gluten
+September in Bangkok,Pad Thai with Chicken,Thai,720,15.00,nuts;egg;soy;gluten-free
+September in Bangkok,Green Curry with Tofu and Rice,Thai,640,14.50,soy;vegetarian;gluten-free
+September in Bangkok,Papaya Salad with Grilled Chicken,Thai,420,14.00,nuts;seafood;gluten-free
+September in Bangkok,Basil Fried Rice with Shrimp,Thai,680,15.50,seafood;soy;egg
+Mecha Noodle Bar,Pho Ga (chicken pho),Asian,540,14.00,gluten;soy
+Mecha Noodle Bar,Spicy Miso Ramen,Asian,760,15.50,gluten;soy;egg
+Mecha Noodle Bar,Vegetable Pho,Asian,460,13.00,gluten;soy;vegetarian;vegan
+Mecha Noodle Bar,Pork Bao (2 pc),Asian,420,9.00,gluten;soy
+Mamoun's Falafel,Falafel Sandwich,Mediterranean,480,7.50,gluten;sesame;vegetarian;vegan
+Mamoun's Falafel,Chicken Shawarma Plate with Rice and Salad,Mediterranean,650,13.50,gluten-free
+Mamoun's Falafel,Hummus Plate with Pita,Mediterranean,520,8.50,gluten;sesame;vegetarian;vegan
+Havenly,Chicken Shawarma Bowl,Mediterranean,580,12.50,gluten-free
+Havenly,Falafel Plate with Tahini and Salad,Mediterranean,540,11.50,sesame;vegetarian;vegan;gluten-free
+Louis' Lunch,Original Hamburger Sandwich (toast not bun),American,380,8.00,gluten;dairy
+Louis' Lunch,Hamburger with Cheese and Tomato,American,450,9.50,gluten;dairy
+Shell & Bones,Grilled Salmon with Seasonal Vegetables,American,520,29.00,seafood;gluten-free
+Shell & Bones,Lobster Roll with Fries,American,820,32.00,seafood;gluten;dairy;egg
+Tavern on State,Roast Half Chicken with Greens,American,640,26.00,gluten-free;dairy
+Tavern on State,Seasonal Vegetable Plate,American,430,19.00,vegetarian;gluten-free
+Claire's Corner Copia,Lithuanian Coffee Cake (slice),American,540,6.50,gluten;dairy;egg;vegetarian
+Claire's Corner Copia,Quinoa Vegetable Bowl,American,470,12.50,vegetarian;vegan;gluten-free
+Claire's Corner Copia,Black Bean Burrito,Mexican,560,11.00,gluten;dairy;vegetarian
