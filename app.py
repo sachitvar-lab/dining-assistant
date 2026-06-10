@@ -35,8 +35,23 @@ st.markdown("""
             border-radius: 999px; padding: 0.16rem 0.6rem; font-size: 0.78rem;
             font-weight: 600; margin: 0 0.3rem 0.3rem 0;}
     .budget-note {color: #8A8F99; font-size: 0.8rem; margin-top: 0.45rem;}
+    .cuisine-icon {font-size: 1.35rem; margin-right: 0.45rem; vertical-align: -2px;}
+
+    /* faint decorative margins; hidden on narrow screens */
+    .side-deco {position: fixed; top: 12vh; font-size: 2.1rem; line-height: 3.6;
+                opacity: 0.13; pointer-events: none; user-select: none; z-index: 0;}
+    .side-deco.left  {left: max(1.5vw, 12px);}
+    .side-deco.right {right: max(1.5vw, 12px);}
+    @media (max-width: 1100px) {.side-deco {display: none;}}
 </style>
+<div class="side-deco left">🍕<br>🍜<br>🍛<br>🥗<br>🍣</div>
+<div class="side-deco right">🌮<br>🥙<br>🍔<br>🍝<br>🫛</div>
 """, unsafe_allow_html=True)
+
+CUISINE_EMOJI = {
+    "Italian": "🍕", "Indian": "🍛", "Japanese": "🍣", "Thai": "🍜",
+    "Asian": "🍜", "Mediterranean": "🥙", "American": "🍔", "Mexican": "🌮",
+}
 
 st.markdown('<div class="hero-title">🍽️ Calorie-Constrained Dining Assistant</div>', unsafe_allow_html=True)
 st.markdown(
@@ -137,7 +152,7 @@ if query:
 <div class="result-card">
   <div style="display:flex; justify-content:space-between; gap:1rem;">
     <div style="flex:1;">
-      <div class="item-name">{row['Item']}</div>
+      <div class="item-name"><span class="cuisine-icon">{CUISINE_EMOJI.get(row['Cuisine'], '🍽️')}</span>{row['Item']}</div>
       <div class="item-meta">{row['Restaurant']} · {row['Cuisine']}</div>
       <div>{badges}</div>
       {budget_note}
